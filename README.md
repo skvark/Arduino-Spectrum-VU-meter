@@ -26,7 +26,8 @@ Will be done later...
 
 **3. Arduino RGB shield, TLC5940's and lot's of PWM outputs**
 
-As you may already have noticed, Arduino isn't capable to control 144 leds independently. There's no way to do that without some help. To get enough PWM (Pulse Width Modulation) outputs, I had to get these little magical IC's called TLC 5940. Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
+As you may already have noticed, Arduino isn't capable to control 144 leds independently. There's no way to do that without some help. To get enough PWM (Pulse Width Modulation) outputs, 
+I had to get these little magical IC's called TLC 5940. Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
 
 To get them all work together they have to be daisy chained. Basically that means you connect certain pins on first IC to the next and so on.
 
@@ -34,9 +35,8 @@ At first I thought I could solder everything to a prototyping PCB but it didn't 
 
 I'm not an electrical engineer, I have never drawn or done anything like this. Still I managed to design this shield for Arduino. It's not good, it's not very practical but it works. That's enough for me at this point.
 
-There's some design flaws in the shield. You have to probably add more decoupling capasitors, I used 0,1 uF and 4,7 uF on each IC. I noticed also that adding 47 pF ceramic capasitor between XLAT and SCLK outputs on the last shield in the 
-
-stack made the circuit a lot more stable and flicker free. Don't ask why :D
+There's some design flaws in the shield. You have to probably add more decoupling capasitors, I used 0,1 uF and 4,7 uF on each IC. 
+I noticed also that adding 47 pF ceramic capasitor between XLAT and SCLK outputs on the last shield in the stack made the circuit a lot more stable and flicker free. Don't ask why :D
 
 More to come...
 
