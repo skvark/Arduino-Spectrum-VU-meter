@@ -26,9 +26,7 @@ Will be done later...
 
 **3. Arduino RGB shield, TLC5940's and lot's of PWM outputs**
 
-As you may already have noticed, Arduino isn't capable to control 144 leds independently. There's no way to do that without some help. To get enough PWM (Pulse Width Modulation) outputs, I had to get these little magical IC's called TLC 
-
-5940. Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
+As you may already have noticed, Arduino isn't capable to control 144 leds independently. There's no way to do that without some help. To get enough PWM (Pulse Width Modulation) outputs, I had to get these little magical IC's called TLC 5940. Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
 
 To get them all work together they have to be daisy chained. Basically that means you connect certain pins on first IC to the next and so on.
 
