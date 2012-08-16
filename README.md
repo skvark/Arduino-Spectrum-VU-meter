@@ -38,6 +38,13 @@ I'm not an electrical engineer, I have never drawn or done anything like this. S
 There's some design flaws in the shield. You have to probably add more decoupling capasitors, I used 0,1 uF and 4,7 uF on each IC. 
 I noticed also that adding 47 pF ceramic capasitor between XLAT and SCLK outputs on the last shield in the stack made the circuit a lot more stable and flicker free. Don't ask why :D
 
+Every shield has daisy_in and daisy_out pinouts. I have no experience engineering this kind of stuff so to connect the pinouts to the next shield you have be creative.
+
+On the first shield __there has to be jumpers__ in the another pinouts (near the edge of the PCB). Signal wont get to any of the shields if the first shield is not connected to Arduino outputs.
+Leave these pinouts alone in other shields, no use for them after the first one.
+
+I will design new revision of the board later, there's not enough holes for all the caps etc.
+
 More to come...
 
 **4. Part list**
