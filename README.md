@@ -3,9 +3,9 @@ Arduino based 6 x 8 RGB LED screen + FFT + Spectrum VU meter
 
 This project has already took me 2 months and I'm only done with the screen and electronics itself, code is still missing but hopefully it will be here sooner or later :)
 
-So this is still a very early prototype. Proof of concept.
+__This is still a very early prototype. Proof of concept.__
 
-If I'll get this all together and working, the screen will be mounted into a Boombox which is kind of a side project of this project :D
+If I get this all together and working, the screen will be mounted into a Boombox which is kind of a side project of this project :D
 
 There's actually two distinguishable parts in the project and therefore I'll divide this short documentation into few parts:
 
@@ -27,7 +27,7 @@ Will be done later...
 **3. Arduino RGB shield, TLC5940's and lot's of PWM outputs**
 
 As you may already have noticed, Arduino isn't capable to control 144 leds independently. There's no way to do that without some help. To get enough PWM (Pulse Width Modulation) outputs, 
-I had to get these little magical IC's called TLC 5940. Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
+I had to get these little magical IC's called [TLC 5940](http://www.ti.com/lit/ds/symlink/tlc5940.pdf). Every one of those contains 16 PWM outputs. 16 * 9 = 144, so I have 9 pieces of them.
 
 To get them all work together they have to be daisy chained. Basically that means you connect certain pins on first IC to the next and so on.
 
@@ -67,7 +67,7 @@ I recommend to buy more caps and resistors than the list suggests, cheap stuff.
 - some random headers for daisy chaining the shields together (or cable)
 - cable
 - 48 RGB leds or 144 normal leds
-- NE5532 for signal ampliflying
+- [NE5532](http://www.ti.com/lit/ds/symlink/ne5532.pdf) for signal ampliflying
 - power source (3,3-3,7 V) which can output 3 amperes (Yeah, 144 leds can draw some power)
 - soldering tools etc.
 - prototyping boards
