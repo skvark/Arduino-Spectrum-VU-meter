@@ -281,7 +281,7 @@
    
    for ( count = 40; count < 50; count++ )
    {
-     b1 = b1 + fx[count]; //Red band, no zero bin, don't use DC component.
+     b1 = b1 + fx[count];
    }
    if (b1 < 0) {
     b1 /= -1; 
@@ -293,7 +293,7 @@
     }
    for ( count = 51; count < 61; count++ )
    {
-     b2 = b2 + fx[count]; //Green band
+     b2 = b2 + fx[count];
    }
    if (b2 < 0) {
     b2 /= -1; 
@@ -305,7 +305,7 @@
     }
    for ( count = 62; count < 72; count++ )
    {
-     b3 = b3 + fx[count]; //Blue band
+     b3 = b3 + fx[count];
    }
      if (b3 > 25000) {
     b1 = 7;
@@ -314,7 +314,7 @@
     }
    for ( count = 73; count < 83; count++ )
    {
-     b4 = b4 + fx[count]; //Red band, no zero bin, don't use DC component.
+     b4 = b4 + fx[count];
    }
     if (b4 > 25000) {
     b1 = 7;
@@ -323,7 +323,7 @@
     }
    for ( count = 84; count < 94; count++ )
    {
-     b5 = b5 + fx[count]; //Green band
+     b5 = b5 + fx[count];
    }
     if (b5 > 25000) {
     b1 = 7;
@@ -332,7 +332,7 @@
     }
    for ( count = 95; count < 110; count++ )
    {
-     b6 = b6 + fx[count]; //Blue band
+     b6 = b6 + fx[count];
    }
      if (b6 > 25000) {
     b1 = 7;
