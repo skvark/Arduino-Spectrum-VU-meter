@@ -11,8 +11,8 @@ If I get this all together and working, the screen will be mounted into a Boombo
 
 There's actually two distinguishable parts in the project and therefore I'll divide this short documentation into few parts:
 
-1. Arduino, Fast Fourier Transform and controlling the screen (coming later)
-2. Arduino and audio input, A/D conversion and preamplifier (coming later)
+1. Fast Fourier Transform and controlling the screen
+2. Arduino and audio input, A/D conversion and preamplifier
 3. Arduino RGB shield, TLC5940's and lot's of PWM outputs
 4. Part list
 
@@ -23,7 +23,7 @@ All the code, circuit diagrams etc. will be open source. Might take some time to
 I'm not so good at math, so luckily someone coded the FFT algorithm originally for C in 1989. 
 
 After that it has been enchanced couple of times, the last modification was to adapt it for Arduino.
-I used the code which can be found from [coolarduino blog] as a backbone for this project.
+I used the code which can be found from [coolarduino blog](http://coolarduino.wordpress.com/2011/02/10/color-organ-spectrum-analyzer-on-arduino/)) as a backbone for this project.
 Thanks to the blog's writer for providing this awesome piece of code in public use.
 
 Fast Fourier Transform is an algorithm which was developed for computing Fourier's transform faster. 
