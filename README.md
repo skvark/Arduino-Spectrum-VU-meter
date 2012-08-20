@@ -38,35 +38,35 @@ I have 3 of my RGB shields stacked on top of the Arduino and each one of them co
 Every led is capable of displaying RGB-colors and all the combinations.
 The values for addressing TLC5940 via Tlc5940 library are following:
 
-*first bar*
-redbar1 = 0 - 7
-greenbar1 = 16 - 23
-bluebar1 = 32 - 39
+*first bar*      
+redbar1 = 0 - 7    
+greenbar1 = 16 - 23    
+bluebar1 = 32 - 39    
 
-*second bar*
-redbar2 = 8 - 15
-greenbar2 = 24 - 31
-bluebar2 = 40 - 47
+*second bar*      
+redbar2 = 8 - 15    
+greenbar2 = 24 - 31    
+bluebar2 = 40 - 47    
 
-*third bar* 
-redbar3 = 48 - 55
-greenbar3 = 64 - 71
-bluebar3 = 80 - 87
+*third bar*       
+redbar3 = 48 - 55     
+greenbar3 = 64 - 71    
+bluebar3 = 80 - 87    
 
-*fourth bar*
-redbar4 = 56 - 63
-greenbar4 = 72 - 79
-bluebar4 = 88 - 95
+*fourth bar*      
+redbar4 = 56 - 63     
+greenbar4 = 72 - 79    
+bluebar4 = 88 - 95    
 
-*fifth bar*
-redbar5 = 96 - 103
-greenbar5 = 112 - 119
-bluebar5 = 128 - 135
+*fifth bar*      
+redbar5 = 96 - 103    
+greenbar5 = 112 - 119    
+bluebar5 = 128 - 135     
 
-*sixth bar*
-redbar6 = 104 - 111
-greenbar6 = 120 - 127
-bluebar6 = 136 - 143
+*sixth bar*      
+redbar6 = 104 - 111    
+greenbar6 = 120 - 127    
+bluebar6 = 136 - 143    
 
 **2. Arduino and audio input, A/D conversion and preamplifier**
 
